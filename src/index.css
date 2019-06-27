@@ -13,18 +13,38 @@ code {
 }
 
 body {
+  margin: 20px;
+  color: #737373;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
 }
 
 .navbar {
-  margin: 0;
+  text-align: center;
+  margin: 20px;
   color: #80bfff;
+}
+
+ul.header li{
+  font-size: 20px;
+  display: inline;
+  list-style-type: none;
+  margin: 20px;
+}
+
+ul.header {
+  padding: 0;
 }
 
 .image img{
   align-items: center;
   margin: 20px 50px 20px;
-  width: 900px;
-  height: 500px;
+  width: 1000px;
+  height: 400px;
 }
 
 h2 {
