@@ -7,6 +7,35 @@ class Contact extends Component {
                 <h2>お問い合わせ</h2>
                 <h4>住所: 沖縄県浦添市勢理客4-5-5</h4>
                 <h4>TEL: 098-875-4555</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                    <tr>
+                        <th>午前9:00~12:00</th>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>●</td>
+                    </tr>
+                    <tr>
+                        <th>午後2:00~6:00</th>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>●</td>
+                        <td>／</td>
+                        <td>●</td>
+                        <td>／</td>
+                    </tr>
+                </table>
             </div>
         )
     }
