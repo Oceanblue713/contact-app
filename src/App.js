@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import Message from './Message';
 import Image from './Image';
 import About from './About'
 import Contact from './Contact';
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div className="Page">
         <Nav/>
+        <Message />
         <Image />
         <About />
         <Contact />

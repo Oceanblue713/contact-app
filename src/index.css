@@ -47,10 +47,31 @@ ul.header {
   height: 400px;
 }
 
-h2 {
+h2{
+  color: #80bfff;
+}
+
+#operation-time {
   text-align: center;
 }
 
 table {
-  align-content: center;
+  border: 1px solid;
+  color: #737373;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+th {
+  border: 1px solid;
+  color: #737373;
+}
+
+td {
+  border: 1px solid;
+  color: #737373;
+}
+
+.message {
+  text-align: center;
 }

@@ -16,6 +16,7 @@ class Contact extends Component {
                         <th>木</th>
                         <th>金</th>
                         <th>土</th>
+                        <th>日・祝</th>
                     </tr>
                     <tr>
                         <th>午前9:00~12:00</th>
@@ -25,6 +26,7 @@ class Contact extends Component {
                         <td>●</td>
                         <td>●</td>
                         <td>●</td>
+                        <td>／</td>
                     </tr>
                     <tr>
                         <th>午後2:00~6:00</th>
@@ -33,6 +35,7 @@ class Contact extends Component {
                         <td>●</td>
                         <td>／</td>
                         <td>●</td>
+                        <td>／</td>
                         <td>／</td>
                     </tr>
                 </table>
