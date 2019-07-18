@@ -4,7 +4,7 @@ import {Col} from 'react-grid-system';
 class Image extends Component {
     render() {
         return(
-            <Col sm={10}>
+            <Col sm={12}>
             <div class="image">
                 <img src={require("./img1.jpg")} />
             </div>

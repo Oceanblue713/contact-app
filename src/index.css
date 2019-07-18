@@ -18,15 +18,14 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-size: 50px;
-  text-align: center;
+.clinic-name {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.navbar {
-  text-align: center;
-  margin: 20px;
+h1 {
   color: #80bfff;
+  font-size: 50px;
 }
 
 ul.header li{
@@ -47,10 +46,20 @@ ul.header {
   height: 400px;
 }
 
+.about {
+  margin-top: 15px;
+}
+
 h2{
   color: #80bfff;
 }
 
+.about-clinic{
+  margin-bottom: 15px;
+}
+.Contact {
+  margin-top: 20px;
+}
 #operation-time {
   text-align: center;
 }
@@ -60,6 +69,8 @@ table {
   color: #737373;
   border-collapse: collapse;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
@@ -74,4 +85,10 @@ td {
 
 .message {
   text-align: center;
+}
+
+.footer p{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }

@@ -4,6 +4,8 @@ import Message from './Message';
 import Image from './Image';
 import About from './About'
 import Contact from './Contact';
+import Link from './Link';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -11,10 +13,12 @@ class App extends Component {
     return (
       <div className="Page">
         <Nav/>
-        <Message />
         <Image />
         <About />
         <Contact />
+        <Message />
+        <Link />
+        <Footer />
       </div>
     );
   }
