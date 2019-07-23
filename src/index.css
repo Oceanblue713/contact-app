@@ -52,14 +52,21 @@ ul.header {
 
 h2{
   color: #80bfff;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 20px;
 }
 
 .about-clinic{
   margin-bottom: 15px;
 }
+
 .Contact {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
 #operation-time {
   text-align: center;
 }
@@ -69,6 +76,7 @@ table {
   color: #737373;
   border-collapse: collapse;
   padding: 20px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,6 +84,8 @@ table {
 th {
   border: 1px solid;
   color: #737373;
+  width: 40px;
+  height: 30px;
 }
 
 td {
@@ -85,6 +95,11 @@ td {
 
 .message {
   text-align: center;
+  margin-top: 20px;
+}
+
+.link Image {
+  margin-right: 30px;
 }
 
 .footer p{
