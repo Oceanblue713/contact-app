@@ -7,10 +7,10 @@ class Message extends Component {
         japanDate = new Date(japanDate);
         let japanDay = japanDate.getDay();
         let message = " ";
-        
-        if( japanDay == 1 || japanDay == 2 || japanDay == 3 || japanDay == 5 ) {
+
+        if( japanDay === 1 || japanDay === 2 || japanDay === 3 || japanDay === 5 ) {
             message = `本日、開院日です。`;
-        } else if( japanDay == 4 || japanDay == 6 ){
+        } else if( japanDay === 4 || japanDay === 6 ){
             message = `本日、午前中のみ開院です。`;
         } else {
             message = `本日、休院日です。`;

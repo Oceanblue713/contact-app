@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Contact extends Component {
     render() {
         return(
-            <div className="Contact">
+            <div className="Contact" id="contact">
                 <h2>お問い合わせ</h2>
-                <h4>住所: 沖縄県浦添市勢理客4-5-5</h4>
-                <h4>TEL: 098-875-4555</h4>
+                <h4>住所: 900-0006 沖縄県浦添市勢理客4-5-5</h4>
+                <h4 id="tel"><a href="tel:0988754555">TEL: 098-875-4555</a></h4>
                 <table>
                     <tr>
-                        <th></th>
+                        <th className="time"></th>
                         <th>月</th>
                         <th>火</th>
                         <th>水</th>
@@ -19,7 +19,7 @@ class Contact extends Component {
                         <th>日・祝</th>
                     </tr>
                     <tr>
-                        <th>午前9:00~12:00</th>
+                        <th className="time">午前9:00~12:00</th>
                         <td>●</td>
                         <td>●</td>
                         <td>●</td>
@@ -29,7 +29,7 @@ class Contact extends Component {
                         <td>／</td>
                     </tr>
                     <tr>
-                        <th>午後2:00~6:00</th>
+                        <th className="time">午後2:00~6:00</th>
                         <td>●</td>
                         <td>●</td>
                         <td>●</td>

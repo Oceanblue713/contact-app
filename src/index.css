@@ -14,6 +14,8 @@ code {
 
 body {
   margin: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   color: #737373;
   text-align: center;
 }
@@ -35,19 +37,38 @@ ul.header li{
   margin: 20px;
 }
 
+a {
+  color: #737373;
+}
+
+a:hover {
+  color: #80bfff;
+  text-decoration: none;
+}
+
 ul.header {
   padding: 0;
 }
 
+.image {
+  margin-right: 20px
+}
 .image img{
   align-items: center;
-  margin: 20px 50px 20px;
-  width: 1000px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 1100px;
   height: 400px;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .about {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 h2{
@@ -88,6 +109,10 @@ th {
   height: 30px;
 }
 
+.time {
+  width: 100px;
+}
+
 td {
   border: 1px solid;
   color: #737373;
@@ -100,6 +125,10 @@ td {
 
 .link Image {
   margin-right: 30px;
+}
+
+.footer {
+  bottom: 0;
 }
 
 .footer p{
